@@ -1,0 +1,51 @@
+def first_2letters(s):
+    if str(s[:2]) == '01':
+        return 'Night'
+    if str(s[:2]) == '02':
+        return 'Night'
+    if str(s[:2]) == '03':
+        return 'Night'
+    if str(s[:2]) == '04':
+        return 'Night'
+    if str(s[:2]) == '05':
+        return 'Night'
+    if str(s[:2]) == '06':
+        return 'Morning'
+    if str(s[:2]) == '07':
+        return 'Morning'
+    if str(s[:2]) == '08':
+        return 'Morning'
+    if str(s[:2]) == '09':
+        return 'Morning'
+    if str(s[:2]) == '10':
+        return 'Morning'
+    if str(s[:2]) == '11':
+        return 'Morning'
+    if str(s[:2]) == '12':
+        return 'Afternoon'
+    if str(s[:2]) == '13':
+        return 'Afternoon'
+    if str(s[:2]) == '14':
+        return 'Afternoon'
+    if str(s[:2]) == '15':
+        return 'Afternoon'
+    if str(s[:2]) == '16':
+        return 'Afternoon'
+    if str(s[:2]) == '17':
+        return 'Evening'
+    if str(s[:2]) == '18':
+        return 'Evening'
+    if str(s[:2]) == '19':
+        return 'Evening'
+    if str(s[:2]) == '20':
+        return 'Night'
+    if str(s[:2]) == '21':
+        return 'Night'
+    if str(s[:2]) == '22':
+        return 'Night'
+    if str(s[:2]) == '23':
+        return 'Night'
+    if str(s[:2]) == '24':
+        return 'Night'
+    else:
+        return s
